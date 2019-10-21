@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://www.webucator.com/course-demos/htm101/process-form.cfm" method="POST">
+        Name: <br> <input type="text" name="username" id="username"> <br>
+        Password: <br> <input type="password" name="pw" id="pw"> <br>
+        <input type="hidden" name="emailMe" id="emailMe" value="tiago.couto1745@gmail.com">
+        <br> <input type="radio" name="gender" id="genderm" value="m" checked> Male <br>
+        <br> <input type="radio" name="gender" id="genderf" value="f"> Female <br>
+        <br> <input type="checkbox" name="terms" id="terms" value="maior_idade"> Maior de 18 <br>
+        <br> <input type="checkbox" name="terms" id="terms" value="menor_idade"> Menor de 18 <br>
+        <br>
+        <select name="referral" id="referral">
+            <optgroup>
+                <option value="0"> --Please choose-- </option>
+
+                <option value="wom"> Word of Mouth </option>
+                <option value="other"> Other </option>
+            </optgroup>
+            <optgroup label="Search Engine">
+                <option value="Google"> Google </option>
+                <option value="Yahoo!"> Yahoo! </option>
+                <option value="MSN"> MSN </option>
+            </optgroup>
+        </select> <br>
+        <br> <textarea rows="4" cols="50" name="comments" id="comments"> Escreva aqui os seus comentários </textarea>
+        <br> <input type="submit" value="Register"> <br>
+        <br> <input type="reset" value="Reset"> <br>
+    </form>
+
+</body>
+
+</html>
